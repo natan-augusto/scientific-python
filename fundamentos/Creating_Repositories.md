@@ -14,7 +14,11 @@ git init
 ```
 ## 3: Criando o arquivo README.md
 ```bash
-nano README.md *ou* echo "# Example" > README.md
+nano README.md
+```
+*ou*
+```bash
+echo "# Example" > README.md
 ```
 ## 4: Preparando os arquivos da pasta para serem commitados
 ```bash
@@ -28,9 +32,9 @@ git commit -m "ADD README.md"
 ```bash 
 git remote add origin https://github.com/user/nome-do-repositorio.git
 ```
-## 7: Enviando pela primeia vez
+## 7: Enviando pela primeira vez
 ```bash
-git push -u origin main git push
+git push -u origin main
 ```
 *depois* 
 ```bash
